@@ -64,21 +64,31 @@
          <p> Lastly, this is another student's, Justin's, Webpage </p>
      </a>
 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+     <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+                  appId            : 'your-app-id',
+                  autoLogAppEvents : true,
+                  xfbml            : true,
+                  version          : 'v14.0'
+                });
+              };
+      </script>
+      
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" 
+      nonce="y5ueeXbU"></script>
+      
+      <p>
+      <!-- Your like button code -->
+      <div class="fb-like" data-href="https://fjennison22.github.io/Project00/" 
+      data-width="100" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+      </p>
 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" 
-     nonce="y5ueeXbU"></script>
-     
-    <p>
-     <!-- Your like button code -->
-     <div class="fb-like" data-href="https://fjennison22.github.io/Project00/" 
-     data-width="100" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-     </p>
-
-    <a href="https://github.com/fjennison22/Project00/blob/main/Pagetwo.html">
+    <a href="Pagetwo.html">
         <p> Explore my favorite books </p>
     </a>
 
