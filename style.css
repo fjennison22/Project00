@@ -8,6 +8,11 @@ body {
     }
   }
 
+  div {
+    background-color: rgb(208, 208, 208); 
+   }
+   
+
 h1 {
     color: dodgerblue;
     font-family: "Courier New", monospace;
@@ -40,3 +45,26 @@ a:hover { color: coral;}
   background-color: rgb(137, 135, 235);
 }
 
+.crimson-text{
+  color:crimson
+}
+
+.crimson{
+  color:crimson
+}
+
+.blue{
+  color:rgb(0, 132, 255)
+}
+
+.orange{
+  color:rgb(255, 157, 0)
+}
+
+.purple{
+  color:rgb(184, 43, 192)
+}
+
+.green{
+  color:rgb(38, 197, 17)
+}
