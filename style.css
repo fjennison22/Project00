@@ -2,12 +2,41 @@ body {
     background-color: rgb(255, 255, 255);
   }
   
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 h1 {
-    color: rgb(141, 200, 156);
+    color: dodgerblue;
+    font-family: "Courier New", monospace;
   }
 
 a{
-    color: rgb(13, 79, 79);
+    color: rgb(53, 67, 216);
 }
 
 a:hover { color: coral;}
+
+.nav{
+  color:rgb(95, 96, 97);
+  font-family: "Lucida Console", "Monaco", monospace;
+  font-weight: bold;
+}
+
+.traveltable{
+  font-style:oblique
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#logo {
+  background-color: rgb(137, 135, 235);
+}
+
